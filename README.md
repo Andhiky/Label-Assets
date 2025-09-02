@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -114,7 +113,7 @@
                 employee: "Faried Ginanjar Rizky",
                 department: "TM-175",
                 position: "DIVISI : IT",
-                avatar: "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d4bd931d-028c-430a-aadc-93e18b2fe84f.png",
+                avatar: "https://placehold.co/100x100",
                 equipment: [
                    
                     { name: "Monitor : LG", sn: "-", status: "Active" },
@@ -129,13 +128,10 @@
                 employee: "Ivan Leo",
                 department: "TM-69",
                 position: "DIVISI : IT",
-                avatar: "[https://placehold.co/100x100](https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d4bd931d-028c-430a-aadc-93e18b2fe84f.png",
+                avatar: "https://placehold.co/100x100",
                 equipment: [
-                    { name: "Monitor : Dell", sn: "-", status: "Active" },
-                    
-                    { name: "Desktop PC : MIcrosoft", sn: "-", status: "Active" }
-                    
-                    { name: "UPS : APC", sn: "-", status: "Active" }
+                    { name: "Laptop ThinkPad", sn: "THNKP7890", status: "Active" },
+                    { name: "Smartphone Samsung", sn: "SGS21U345", status: "Active" }
                 ]
             },
             {
