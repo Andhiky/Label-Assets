@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assets - IT Management System</title>
+    <title>Inventory Peralatan Karyawan</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -45,7 +45,7 @@
                 <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg mr-4">
                     <i class="fas fa-laptop-code text-3xl text-purple-600"></i>
                 </div>
-                <h1 class="text-4xl font-bold text-white">Assets Peralatan Kerja</h1>
+                <h1 class="text-4xl font-bold text-white">Inventory Peralatan Karyawan</h1>
             </div>
             <p class="text-white/90 text-lg">Manajemen dan tracking peralatan IT untuk seluruh karyawan</p>
         </div>
@@ -95,39 +95,33 @@
         const equipmentData = [
             {
                 id: 1,
-                employee: "Muhammad Fahrur Rozi",
-                department: "TM-70",
-                position: "DIVISI : IT",
+                employee: "Ahmad Rizky",
+                department: "IT Development",
+                position: "Frontend Developer",
                 avatar: "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d4bd931d-028c-430a-aadc-93e18b2fe84f.png",
                 equipment: [
-                    
-                    { name: "Monitor : LG", sn: "-", status: "Active" },
-                
-                    { name: "Desktop PC : Microsoft", sn: "-", status: "Active" },
-                 
-                    { name: "UPS : ICAcc 600", sn: "-", status: "Active" }
+                    { name: "Laptop Dell XPS 15", sn: "DLXPS156789", status: "Active" },
+                    { name: "Monitor LG 27\"", sn: "LG27UHD123", status: "Active" },
+                    { name: "Keyboard Mechanical", sn: "MECHKB456", status: "Active" }
                 ]
             },
             {
                 id: 2,
-                employee: "Faried Ginanjar Rizky",
-                department: "TM-175",
-                position: "DIVISI : IT",
+                employee: "Siti Nurhaliza",
+                department: "Design",
+                position: "UI/UX Designer",
                 avatar: "https://placehold.co/100x100",
                 equipment: [
-                   
-                    { name: "Monitor : LG", sn: "-", status: "Active" },
-
-                    { name: "Desktop PC : Microsoft", sn: "-", status: "Active" },
-
-                    { name: "Keyboard : Logitech", sn: "-", status: "Active" }
+                    { name: "MacBook Pro M1", sn: "MBP16M1890", status: "Active" },
+                    { name: "iPad Pro 12.9\"", sn: "IPDP129456", status: "Active" },
+                    { name: "Wacom Tablet", sn: "WACM789012", status: "Active" }
                 ]
             },
             {
                 id: 3,
-                employee: "Ivan Leo",
-                department: "TM-69",
-                position: "DIVISI : IT",
+                employee: "Budi Santoso",
+                department: "Marketing",
+                position: "Digital Marketing",
                 avatar: "https://placehold.co/100x100",
                 equipment: [
                     { name: "Laptop ThinkPad", sn: "THNKP7890", status: "Active" },
@@ -275,7 +269,7 @@
             // Add fade-in animation to all cards
             setTimeout(() => {
                 document.querySelectorAll('.equipment-card').forEach((card, index) => {
-                    card.style.animationDelay = ${index * 0.1}s;
+                    card.style.animationDelay = `${index * 0.1}s`;
                     card.classList.add('fade-in');
                 });
             }, 100);
